@@ -1,4 +1,5 @@
 import org.junit.Test
+import static org.junit.Assert
 
 public class EncryptTest {
     @Test
@@ -6,4 +7,6 @@ public class EncryptTest {
         Encrypt testingEncrypt = new EncryptTest();
         assertEquals(true, testingEncrypt instanceof Encrypt );
     }
+    @Test
+    void test
 }
