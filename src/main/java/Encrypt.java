@@ -1,8 +1,11 @@
 public class Encrypt {
     private String text;
+    private int key;
 
-    private Encrypt(String text){
+    public Encrypt(String text, int key){
         this.text = text;
+        this.key = key;
+
     }
 
 }
