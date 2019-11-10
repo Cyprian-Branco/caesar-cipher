@@ -8,8 +8,8 @@ public class EncryptTest {
         assertEquals(true, testingEncrypt instanceof Encrypt );
     }
     @Test
-    void testEncrypt_ccKey_(){
-        Encrypt testingKey = new Encrypt();
-        assertEquals(true, testingKey instanceof Encrypt);
+    void testEncrypt_ccShiftKey_(){
+        Encrypt testingShiftKey = new Encrypt();
+        assertEquals(true, testingShiftKey instanceof Encrypt);
     }
 }
