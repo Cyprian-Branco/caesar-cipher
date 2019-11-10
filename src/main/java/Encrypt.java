@@ -1,11 +1,17 @@
 public class Encrypt {
     private String text;
-    private int key;
+    private int shiftKey;
 
-    public Encrypt(String text, int key){
+    public Encrypt(String text, int shiftKey){
         this.text = text;
-        this.key = key;
+        this.shiftKey = shiftKey;
 
+    }
+    public String getText(){
+        return text;
+    }
+    public int getShiftKey(){
+        return shiftKey;
     }
 
 }
