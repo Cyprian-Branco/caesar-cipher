@@ -2,7 +2,8 @@ import org.junit.Test
 
 public class EncryptTest {
     @Test
-    public void newEncrypt_newText_String(){
-        Encrypt testEncrypt = new EncryptTest();
+    void testEncrypt_newText_String(){
+        Encrypt testingEncrypt = new EncryptTest();
+        assertEquals(true, testingEncrypt instanceof Encrypt );
     }
 }
