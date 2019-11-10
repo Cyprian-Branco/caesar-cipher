@@ -1,3 +1,8 @@
+import org.junit.Test
 
-class EncryptTest {
+public class EncryptTest {
+    @Test
+    public void newEncrypt_newText_String(){
+        Encrypt testEncrypt = new EncryptTest();
+    }
 }
