@@ -9,6 +9,10 @@ public class CipherTest {
         assertEquals(true, cipher instanceof Cipher);
     }
     @Test
+    public void testGetText_checkText_True(){
+        
+    }
+    @Test
     public void testDecrypt_checkText_String() {
         CipherDecrypt cipherdecrypt = new CipherDecrypt("st", 1);
         assertEquals(true, cipherdecrypt instanceof CipherDecrypt);
