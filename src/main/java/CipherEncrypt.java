@@ -9,6 +9,9 @@ class Cipher {
     public String getText(){
         return text;
     }
+    public int getKey(){
+        return key;
+    }
     public void Encrypt() {
         StringBuffer encryption = new StringBuffer();
         for (int i = 0; i < text.length(); i++) {
