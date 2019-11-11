@@ -5,10 +5,10 @@ public class App {
         Scanner option = new Scanner(System.in);
         System.out.println("choice\n 1.Encrypt\n 2.Decrypt\n3.Exit");
 
-        String choice = option.nextLine();
+        Integer choice = option.nextInt();
 
-        if (choice.equals == 1){
-            
+        if (choice == 1){
+
         }
     }
 }
