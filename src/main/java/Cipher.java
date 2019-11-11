@@ -1,3 +1,5 @@
+import java.security.PublicKey;
+
 public class Cipher {
     private String text;
     private int key;
@@ -6,6 +8,8 @@ public class Cipher {
         this.text = text;
         this.key = key;
     }
-
+    public String getText(){
+        return text;
+    }
 
 }
