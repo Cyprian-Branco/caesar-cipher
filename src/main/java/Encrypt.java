@@ -13,8 +13,8 @@ public class Encrypt {
     public int getShiftKey(){
         return shiftKey;
     }
-    public String createEncryption(){
-        for(i=0, i<text.length(), i++){
+    public <Encryption> String Encryption(){
+        for (int i=0; i<text.length(); i++){
 
         }
 
