@@ -11,7 +11,7 @@ public class CipherDecrypt {
     public int getKey(){
         return key;
     }
-    public void Decrypt() {
+    public String Decrypt() {
         StringBuffer decryption = new StringBuffer();
         for (int j = 0; j < text.length(); j++) {
             if (Character.isUpperCase(this.text.charAt(j))) {
