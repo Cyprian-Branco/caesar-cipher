@@ -6,6 +6,8 @@ class Cipher {
         this.text = text;
         this.key = key;
     }
+
+
     public String getText(){
         return text;
     }
@@ -13,7 +15,7 @@ class Cipher {
         return key;
     }
     public void Encrypt() {
-        StringBuffer encryption = new StringBuffer();
+        StringBuilder encryption = new StringBuilder();
         for (int i = 0; i < text.length(); i++) {
             if (Character.isUpperCase(this.text.charAt(i))) {
                 char e = (char) (((int) this.text.charAt(i) + this.key - 65) % 26 + 65);
