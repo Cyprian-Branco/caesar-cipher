@@ -1,4 +1,4 @@
-public class Cipher {
+class Cipher {
     private String text;
     private int key;
 
@@ -8,6 +8,9 @@ public class Cipher {
     }
     public String getText(){
         return text;
+    }
+    public int getKey(){
+        return key;
     }
     public void Encrypt() {
         StringBuffer encryption = new StringBuffer();
