@@ -1,4 +1,4 @@
-public class Cipher {
+class Cipher {
     private String text;
     private int key;
 
