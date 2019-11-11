@@ -15,6 +15,9 @@ public class Encrypt {
     }
     public <Encryption> String Encryption(){
         for (int i=0; i<text.length(); i++){
+            if(Character.isUpperCase(this.text.charAt(i))){
+                
+            }
 
         }
 
