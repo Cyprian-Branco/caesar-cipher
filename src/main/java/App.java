@@ -1,5 +1,7 @@
 import java.awt.*;
 import java.util.Scanner;
+import java.io.IOException;
+
 
 public class App {
     public static void main (String[] args){
@@ -21,7 +23,8 @@ public class App {
             int key = Integer.parseInt(inputKey.nextLine());
             System.out.println("The key is: " + key);
 
-            System.out.println("The Encrypted text is: " + (Cipher.Encrypt(text, key)));
+            Cipher cipher = new Cipher(text, key);
+            System.out.println("The Encrypted text is: " + cipher.encrypt());
 
         }else if(choice == 2){
             Scanner inputText2 = new Scanner(System.in);
@@ -34,7 +37,8 @@ public class App {
             int key = Integer.parseInt(inputKey2.nextLine());
             System.out.println("The key is: " + key);
 
-            System.out.println("The decrypted text is: " + (CipherDecrypt.Decrypt(text, key)));
+            CipherDecrypt cipherdecrypt = new CipherDecrypt(text, key);
+            System.out.println("The decrypted text is: " + cipherdecrypt.Decrypt());
 
         }else if(choice == 3){
             System.out.println("------Goodbye------");

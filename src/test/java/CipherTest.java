@@ -10,7 +10,7 @@ public class CipherTest {
     }
     @Test
     public void testGetText_checkText_True(){
-        
+
     }
     @Test
     public void testDecrypt_checkText_String() {

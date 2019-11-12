@@ -14,7 +14,7 @@ class Cipher {
     public int getKey(){
         return key;
     }
-    public void Encrypt() {
+    public  String encrypt() {
         StringBuilder encryption = new StringBuilder();
         for (int i = 0; i < text.length(); i++) {
             if (Character.isUpperCase(this.text.charAt(i))) {
@@ -25,5 +25,6 @@ class Cipher {
                 encryption.append(e);
             }
         }
+        return encryption.toString();
     }
 }
