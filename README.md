@@ -1,4 +1,4 @@
-## **caesar-cipher** 
+## **CAESAR-CIPHER** 
 
 ## Project description
 
