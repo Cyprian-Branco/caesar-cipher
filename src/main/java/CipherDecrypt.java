@@ -22,5 +22,6 @@ public class CipherDecrypt {
                 decryption.append(e);
             }
         }
+        return decryption.toString();
     }
 }
