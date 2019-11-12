@@ -7,7 +7,7 @@ Caesar cipher is one of the simplest encryption technique. It is also known as t
 By using this cipher technique we can replace each letter in the plaintext with different one a fixed number of places up or down the alphabet.
 
 ## Author
-Cyprian Bowen
+Cyprian Bowen contact: bowencyprian@outlook.com
 
 ## SetUp and Installation
 
